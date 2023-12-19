@@ -1,0 +1,102 @@
+.page{
+  height:729px;
+  width:100%;
+  background-color:#F1F2F6;
+  padding-top:120px
+}
+input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.task-edit{
+  background-color:#FFFFFF;
+  width: 500px;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  border-radius:8px;
+  padding:25px 0px;
+  margin-bottom:60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.fa-pen-to-square:hover{
+  color:rgba(17, 73, 194, 0.938)!important
+}
+.fa-trash:hover{
+  color:red!important
+}
+p{
+  margin:0px;
+  user-select: none;
+}
+i{
+  margin-left:9px;
+  &:hover {
+    cursor:pointer
+  }
+}
+h2{
+  font-size:21px;
+  letter-spacing:3px;
+  margin-bottom:20px;
+}
+
+input:hover{
+  background-color:#5435f113 ;
+  transition: 250ms ease-in-out;
+  cursor:pointer;
+  border-color:#5435f1;
+}
+
+input, button{
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:15px
+}
+.task{
+  background-color:#FFFFFF;
+  height: 60px;
+  width:506px;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:14px 18px;
+  border-radius:8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom:10px;
+  &:hover{
+    background-color:#5435f113
+  }
+}
+.tasks{
+  max-height:336px;
+  width:530px;
+  margin:auto;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+
+}
+
+
+.submit:hover{
+  background-color:#5435f1e6!important
+}
+.check:hover{
+  color:rgba(22, 162, 22, 0.581)
+}
+.hide{
+  display:none
+}
+.checked{
+  text-decoration: line-through;
+}
+.Green{
+  color:rgba(22, 162, 22, 0.581)
+}
